@@ -198,7 +198,7 @@
       - name: 默认代理
         type: select
         proxies: [🎯 全球直连, 🚫 全球拦截, 🗿 省流节点, 🗿 省流自动, 🇭🇰 香港手动, 🇹🇼 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🇭🇰 香港自动, 🇹🇼 台湾自动, 🇸🇬 狮城自动, 🇯🇵 日本自动, 🇺🇸 美国自动, 🏠 家宽高倍, ⭐ 常用自选, 🧊 冷门自选, 🍟 节点集合]
-        icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/ClashMeta.png
+        icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Clash.png
 
       - name: 谷歌推送
         <<: *anchor_policy_groups_default
