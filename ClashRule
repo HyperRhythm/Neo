@@ -222,7 +222,7 @@
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Clapper.png
 
       # 节点测速策略组
-      - name: ⚡ 速度测试
+      - name: 速度测试
         type: select
         proxies: [🎯 全球直连, 默认代理, 🍟 节点集合]
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Speedtest.png
@@ -488,7 +488,7 @@
     - RULE-SET, BanProgramAD, 🚫 全球拦截
     - RULE-SET, A_MediaHub, Emby/Jellyfin           # Emby/Jellyfin
     - RULE-SET, A_MediaHub*, Emby/Jellyfin*         # Emby/Jellyfin 自定义服务器地址规则
-    - RULE-SET, Speedtest, ⚡ 速度测试
+    - RULE-SET, Speedtest, 速度测试
     - RULE-SET, GoogleFCM, 谷歌推送
     - RULE-SET, WeChat, 🎯 全球直连
     - RULE-SET, Telegram, Telegram
@@ -585,7 +585,7 @@
       <<: *anchor_rule_providers_classical_yaml
       url: https://raw.githubusercontent.com/HyperRhythm/Neo/refs/heads/main/A_MediaHub*.yaml
       path: ./rule_providers/A_MediaHub*.yaml
-    Speedtest: # ⚡ 速度测试
+    Speedtest: # 速度测试
       <<: *anchor_rule_providers_classical_yaml
       url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest_No_Resolve.yaml
       path: ./rule_providers/Speedtest.yaml
