@@ -489,7 +489,7 @@
     - RULE-SET, A_MediaHub, Emby/Jellyfin           # Emby/Jellyfin
     - RULE-SET, A_MediaHub*, Emby/Jellyfin*         # Emby/Jellyfin 自定义服务器地址规则
     - RULE-SET, Speedtest, ⚡ 速度测试
-    - RULE-SET, GoogleFCM, 📢 谷歌推送
+    - RULE-SET, GoogleFCM, 谷歌推送
     - RULE-SET, WeChat, 🎯 全球直连
     - RULE-SET, Telegram, Telegram
     - RULE-SET, Discord, Discord 
@@ -589,7 +589,7 @@
       <<: *anchor_rule_providers_classical_yaml
       url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest_No_Resolve.yaml
       path: ./rule_providers/Speedtest.yaml
-    GoogleFCM: # 📢 谷歌推送
+    GoogleFCM: # 谷歌推送
       <<: *anchor_rule_providers_classical_yaml
       url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM_No_Resolve.yaml
       path: ./rule_providers/GoogleFCM.yaml
