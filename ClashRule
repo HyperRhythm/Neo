@@ -202,7 +202,7 @@
 
       - name: 谷歌推送
         <<: *anchor_policy_groups_default
-        icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/Google.png
+        icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Google.png
 
       - name: 即时通讯
         <<: *anchor_policy_groups_default
